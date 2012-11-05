@@ -1,0 +1,3 @@
+ID UTENTE £/£ NOME £/£ EMAIL £/£ TELEFONO £/£ PREFERENZA CONTATTO £/£ TIPOLOGIA CLIENTE £/£ PASSWORD £/£ NUMERO RICHIESTE
+1£/£Admin£/£insert_your_email_here£/£123456789£/£Email£/£Privato£/£insert_your_password_here£/£0
+2

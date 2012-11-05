@@ -1,0 +1,110 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	color:#555555;
+	font-size:13px;
+	background: url(img/bg.png) #282828;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.clear{
+	clear:both;
+}
+
+#main-container{
+	width:400px;
+	margin:10% auto;
+        border: 1px solid #DDDDDD;
+}
+
+#form-container{
+    
+	background-color:#f5f5f5;
+	padding:15px;
+	
+	-moz-border-radius:12px;
+	-khtml-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius:12px;
+}
+
+td{
+	white-space:nowrap;
+}
+
+a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h1{
+	color:#777777;
+	font-size:22px;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+
+h2{
+	font-weight:normal;
+	font-size:10px;
+	
+	text-transform:uppercase;
+	
+	color:#aaaaaa;
+	margin-bottom:15px;
+	
+	border-bottom:1px solid #eeeeee;
+	margin-bottom:15px;
+	padding-bottom:10px;
+}
+
+label{
+	text-transform:uppercase;
+	font-size:10px;
+	font-family:Tahoma,Arial,Sans-serif;
+}
+
+textarea{
+	color:#404040;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+
+td > button{
+	text-indent:8px;
+}
+
+.error{
+	background-color:#AB0000;
+	color:white;
+	font-size:10px;
+	font-weight:bold;
+	margin-top:10px;
+	padding:10px;
+	text-transform:uppercase;
+	width:240px;
+}
+
+#loading{
+	position:relative;
+	bottom:9px;
+	visibility:hidden;
+}
+
+.reset{    font-family: 'Lato', sans-serif; display:block;text-align:right;margin-bottom:2%; }
+a.reset{text-align:center;float:right;color:#fff;text-decoration:none;margin-top:20px;margin-right:20px;background:#454545;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;padding:10px}
+a.reset:hover{-webkit-box-shadow:3px 5px 7px #DDD;text-align:center;float:right;color:#fff;text-decoration:none;margin-top:20px;margin-right:20px;background:#454545;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;padding:10px}
+
+#error{ width: 100%;}
+
+error{font-family: 'Lato', sans-serif; font-size: 25px; padding-left:20px; color: red; }
+be{padding-left:20px;font-family: 'Lato', sans-serif;}
